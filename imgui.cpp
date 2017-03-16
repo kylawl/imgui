@@ -2096,6 +2096,11 @@ void ImGui::DestroyContext(ImGuiContext* ctx)
         SetCurrentContext(NULL);
 }
 
+ImGuiContext* ImGui::GetDefaultContext()
+{
+    return &GImDefaultContext;
+}
+
 ImGuiIO& ImGui::GetIO()
 {
     return GImGui->IO;

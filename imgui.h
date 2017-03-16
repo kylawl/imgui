@@ -461,6 +461,7 @@ namespace ImGui
     IMGUI_API void          DestroyContext(ImGuiContext* ctx);
     IMGUI_API ImGuiContext* GetCurrentContext();
     IMGUI_API void          SetCurrentContext(ImGuiContext* ctx);
+    IMGUI_API ImGuiContext* GetDefaultContext();
 
     // Obsolete (will be removed)
 #ifndef IMGUI_DISABLE_OBSOLETE_FUNCTIONS
